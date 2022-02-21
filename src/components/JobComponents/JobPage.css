@@ -1,0 +1,51 @@
+.page {
+
+    width: 830px;
+    margin: 35px auto
+}
+.jobTitle {
+
+    color:#eb6e15
+}
+.textarea {
+    height: 200px;
+    width: 95%;
+    border:none;
+    outline-style:none;
+    overflow:visible
+}
+.info {
+
+    background: linear-gradient(rgb(215, 250, 215), #fff);
+    padding: 20px;
+    width:95%;
+    margin: 35px 0 0 0 ;
+    font-family: 'Rubik', sans-serif;
+}
+table {
+
+    text-align: center;  
+    width: 100%;
+}
+
+.pageImg {
+
+    max-width: 70%;
+    height: auto;
+}
+@media screen and (max-width: 940px)
+{
+    .page {
+
+        width:90%;
+    }
+    .info {
+ 
+        width: 90%;
+    }
+    .pageImg {
+
+        width:90%;  
+        
+    }
+}

@@ -1,0 +1,14 @@
+.homePage {
+    display:flex;    
+    
+      
+  
+}
+@media screen and (max-width: 940px)
+{
+    .homePage {
+
+   display:inline ;
+    }
+  
+}

@@ -1,0 +1,23 @@
+.orangeText {
+    color: #eb6e15;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+}
+.btn{
+     display: flex;
+     margin: 0 auto;
+     
+}
+.hv-center{
+    border:1px solid green;
+    margin: 20px auto;
+    
+    text-align: center;
+
+
+}

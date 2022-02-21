@@ -1,0 +1,128 @@
+.nav{
+    background-color: white;
+    border-bottom:2px solid #eb6e15;
+    display: flex;
+    height:80px;
+    
+    position : fixed; 
+    position: sticky; 
+    top: 0; 
+    z-index: 300;
+    justify-content:space-between;
+    
+}
+
+.navLogo {
+  height: 75px;
+  cursor: pointer;
+ 
+  
+
+}
+.navLinks {
+  display: flex; 
+}
+
+.navLink {
+    padding: 0px;
+    color: #eb6e15;
+    font-weight: bold;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 30px;
+    padding-bottom: 6px;
+    
+    
+    
+}
+.links {
+    margin-right: 85px;
+
+}
+.navLink:hover {
+  color: green;
+  border-bottom:4px solid #f5a267;
+
+}
+.navLink:active {
+  color: green;
+}
+.isLogged {
+  cursor: pointer;
+  color: green;
+  margin: 30px;
+  padding-bottom: 6px;
+  display: inline-block;
+  max-width: 140px 
+}
+.Logout {
+  cursor: pointer;
+  color: green;
+  margin: 30px;
+  padding-bottom: 6px;
+  display: inline-block;
+
+}
+
+ @media screen and (max-width: 940px)
+{
+  .nav {
+    height: 155px;
+ 
+  
+  }
+  .navLogo {
+
+    width: 120px;
+    margin:auto 5px;
+  }
+  .navLinks {
+  
+    flex-direction: column;
+    width: 100%;
+  }
+  .navLink {
+
+    margin:5px;
+  }
+  .isLogged {
+
+    margin:5px;
+    
+  }
+  .Logout {
+  
+    margin:7px;
+  }
+  
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  } 
+}

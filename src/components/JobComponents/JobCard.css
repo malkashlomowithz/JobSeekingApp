@@ -1,0 +1,32 @@
+
+.JobCard {
+
+    overflow:hidden;
+}
+.caredImage {
+
+    max-width: 100%;
+  height: auto;   
+}
+.card-text {
+    
+    padding: 0 20px  ;
+}
+.JobCard:hover {
+
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(235, 231, 231)
+}
+.timer {
+
+    font-size: large;
+    margin-top: 5px
+}
+@media screen and (max-width: 940px)
+{
+    .JobCard {
+
+       
+    }
+}
