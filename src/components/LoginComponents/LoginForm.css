@@ -1,0 +1,19 @@
+.login-card {
+    
+    min-height: 60vh;
+}
+
+.registerMessage {
+    margin-top: 10vh;
+}
+.loginText {
+    color: #7b4480;
+    cursor: pointer;
+}
+.loginText:hover {
+    font-weight: bold;
+
+}
+.btn {
+    color: #7b4480;
+}

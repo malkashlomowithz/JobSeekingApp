@@ -1,0 +1,57 @@
+.page {
+
+    border:3px solid #7b4480;
+    padding: 0;
+
+}
+.bodyPage {
+
+    padding: 10px;
+}
+.jobTitle {
+
+    color:#7b4480
+}
+.headerDetails { 
+    padding: 5px;
+    text-align: center;
+
+}
+.right{
+
+    text-align: right;
+    padding: 5px;
+}
+.left {
+    text-align: left;
+    padding: 5px;
+    
+}
+.thisButton {
+    margin: 5px;
+    background-color:#f0b995;
+    color:#7b4480;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;  
+    border: #7b4480 solid 3px;
+}
+.thisButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    color:#f0b995;
+    background-color:#7b4480;
+
+  }
+
+.pointer {
+    cursor:pointer; 
+    text-decoration: underline;
+    color: grey
+}
+
+
+@media screen and (max-width: 940px)
+{
+
+}

@@ -1,0 +1,18 @@
+.icons {
+    width: 830px;
+    margin: 35px auto;
+    color:green;
+}
+.image {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 940px)
+{
+    .icons {
+
+        width:90%;
+    }
+}   
